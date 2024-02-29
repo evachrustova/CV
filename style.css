@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(250, 237, 221);
+    text-align: center;
+    padding: 50px;
+    line-height: 1.5;
+    font-family: "Quicksand", sans-serif;
+    margin:0;
+}
+.footer{
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 1px 0 1px 0;
+    
+}
+
+h1{
+    color: rgb(110, 102, 90);
+}
+.photo-aboutme{
+    width: 200px;
+    border-radius: 20px;
+    float:right;
+    margin: 0 0 20px 20px; 
+
+}
+.experience{
+    clear:right;
+}
+.aboutme{
+    padding:15px;
+}
