@@ -17,10 +17,22 @@ h1{
     color: rgb(110, 102, 90);
     text-align: center;
     }
+h3{
+    font-size: 18px;
+} 
 section{
     text-align: left;  
     padding: 0 50px 0 50px; 
 }
+.kontakt{
+    text-align: center;
+    
+}
+.kontakt li{
+    display: inline;
+    margin: 0 40px 0 40px;
+}
+
 .aboutme{
     padding-top: 20px;
 }
@@ -55,9 +67,7 @@ section{
         display: inline-block;
         color: rgb(250, 237, 221);
         text-decoration: none;
-        padding: 5px 5px;
-    
-    
+        padding: 5px 5px;  
 }
 .menu a:hover,
 .menu a:focus,
