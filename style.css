@@ -1,32 +1,66 @@
 body{
     background-color: rgb(250, 237, 221);
-    text-align: center;
-    padding: 50px;
     line-height: 1.5;
     font-family: "Quicksand", sans-serif;
-    margin:0;
+    margin: 0;
+
 }
 .footer{
     background-color: #282425;
     color: white;
     text-align: center;
-    padding: 1px 0 1px 0;
+    padding: 0;
     
 }
 
 h1{
     color: rgb(110, 102, 90);
+    text-align: center;
+    }
+section{
+    text-align: left;  
+    padding: 0 50px 0 50px; 
 }
+.aboutme{
+    padding-top: 20px;
+}
+
 .photo-aboutme{
     width: 200px;
     border-radius: 20px;
-    float:right;
-    margin: 0 0 20px 20px; 
-
+    float:left;
+    margin: 0 20px 20px 0; 
 }
 .experience{
-    clear:right;
+    clear:left;
+    background-color: rgba(240, 218, 191, 0.884);
+    padding-top: 1px;
 }
-.aboutme{
-    padding:15px;
+.certificates{
+    background-color: rgba(240, 218, 191, 0.884);
+    padding-top: 1px;
+}
+.menu{
+    background-color: #282425;
+    color: rgb(250, 237, 221);
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+.menu li{
+    display: inline;
+    
+}
+.menu a{
+        display: inline-block;
+        color: rgb(250, 237, 221);
+        text-decoration: none;
+        padding: 5px 5px;
+    
+    
+}
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+    background-color: burlywood;
 }
