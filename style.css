@@ -4,7 +4,7 @@ body{
     font-family: "Quicksand", sans-serif;
     margin: 0 auto;
     width: 70%;
-    border:2px solid rgb(110, 102, 90)
+    border:2px solid #282425;
 
 }
 *{
@@ -27,6 +27,7 @@ h3{
     background-color: #282425;
     color: rgb(250, 237, 221);
     padding-left: 5px;
+    border-radius: 8px;    
 } 
 section{
     text-align: left;  
@@ -42,7 +43,8 @@ section{
 }
 
 .aboutme{
-    padding-top: 20px;
+    padding-top: 10px;
+    background-color: rgb(250, 237, 221);
 }
 
 .photo-aboutme{
@@ -50,6 +52,9 @@ section{
     border-radius: 20px;
     float:left;
     margin: 0 20px 20px 0; 
+}
+.introduction{
+    margin-top: 0;
 }
 .experience{
     clear:left;
@@ -59,6 +64,9 @@ section{
 .certificates{
     background-color: rgba(240, 218, 191, 0.884);
     padding-top: 1px;
+}
+.languages{
+    background-color: rgb(250, 237, 221);
 }
 .menu{
     background-color: #282425;
